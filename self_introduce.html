@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Self introduction</title>
+    <!-- CSS Reset by using normalize.css-->
+    <link rel="stylesheet" type="text/css" href="https://necolas.github.io/normalize.css/5.0.0/normalize.css">
+    <link rel="stylesheet" type="text/css" href="screen.css">
+    <style>  
+      img {
+        display: block;
+        margin: auto;
+        width: 40%;
+      }
+      
+      body {
+        text-align: center;
+        background-color: #F5F5DC;
+      }
+      
+      /* min-width media query */
+      /* Change the image width bigger if the viewport is 600 pixels wide or wider: */
+      @media screen and (min-width: 500px) {
+        #seoul, #android {
+          width: 90%;
+        }
+      }
+      
+      li {
+        color: #f2f2f2;
+      }
+      
+      h3 {
+        color: #4dad4a;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="index.html">Main page</a></li>
+          <li><a href="resume.html">Professional resume</a></li>
+          <li><a href="#">Self introduction</a></li>
+        </ul>
+      </nav>
+    </header>
+    <h1>Self Introduction</h1>
+    <section id="myself">
+      <h3>I'm Dayeon Lee</h3>
+      <p>You can call me <strong>Diana</strong></p>
+      <p>I'm from <strong>Seoul</strong>, South Korea</p>
+      <img src="http://events.linuxfoundation.jp/sites/events/files/seoul.png" alt="seoul" id="seoul" />
+      <p>I now live in <strong>Chicago</strong>, IL</p>
+      <p>I'm undergraduate student</p>
+      <p>I play computer games in my free time</p>
+      <p>I'm interested in <strong>Android programming</strong></p>
+      <img src="http://blog.venturesity.com/wp-content/uploads/2013/06/GOOG_Android_Java_689.jpg" alt="android" id="android" />
+    </section>
+    <footer>
+      <p>Created by Dayeon Lee</p>
+      <p>Contact : dlee58@hawk.iit.edu</p>
+    </footer>
+  </body>
+</html>

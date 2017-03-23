@@ -1,0 +1,78 @@
+html {
+  font-family: sans-serif;
+}
+
+header, footer {
+  font-size: 90%;
+  text-align: center;
+}
+
+body {
+  line-height: 2rem;
+  color: #4d4d4d; /* grey color */
+  margin: 0 0 0 0; 
+}
+
+nav > ul, footer {
+  padding: 0 0 0 0; /* removing circle */
+  margin: 0 0 0 0;
+  background-color: #4CAF50;
+}
+
+li a {
+  padding: 8px;
+  display: block;
+  color: #FFFFFF;
+  text-decoration: none; /* remove underline */
+}
+
+/* mouse over */
+li a:hover {
+  background-color: #388E3C;
+}
+
+section > p {
+  color: #000000;
+}
+
+h1 {
+  color: #107b35; /* dark greenish color */
+  margin-left: 0.5rem;
+}
+
+h2 {
+  color: #4dad4a; /* light greenish color */
+  margin-left: 0.8rem;
+}
+
+h3 {
+  font-style: italic;
+  margin-left: 1.2rem;
+}
+
+p {
+  margin-left: 1.5rem;
+}
+
+/* resume.html */
+#education, #pInfo, #experience, #skill {
+  color: #4d4d4d;
+}
+
+/* index.html */
+section#welcome_message {
+  font-style: italic;
+  margin-left: 1.2rem;
+}
+
+.left {
+  float: left;
+}
+.right {
+  float: right;
+}
+
+/* self_introduce.html */
+section#myself {
+  color: #4d4d4d;
+}

@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Professional Resume</title>
+    <!-- CSS Reset by using normalize.css-->
+    <link rel="stylesheet" type="text/css" href="https://necolas.github.io/normalize.css/5.0.0/normalize.css">
+    <link rel="stylesheet" type="text/css" href="screen.css">
+    <style>
+      body {
+        width: 60%;
+        height: 60%;
+      }
+      
+      /* min-width media query */
+      /* Change the body size bigger if the viewport is 500 pixels wide or wider: */
+      @media screen and (min-width: 500px) {
+        body {
+          width: 100%;
+          height: 100%;
+        }
+        
+        #youtube {
+          width: 560px;
+          height: 310px;
+        }
+      }
+
+      p > strong {
+        font-size: 1.1rem;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="index.html">Main page</a></li>
+          <li><a href="#">Professional resume</a></li>
+          <li><a href="self_introduce.html">Self introduction</a></li>
+        </ul>
+      </nav>
+    </header>
+    <h1>Dayeon Lee</h1>
+    <section id="pInfo">
+      <h3>Personal Information</h3>
+      <p>dlee58@hawk.iit.edu</p>
+      <p>312-483-7018</p>
+    </section>
+    <h2>Education:</h2>
+    <section id="education">
+      <h3>Education</h3>
+      <p><strong>Illinois institute of Technology</strong>, Chicago, IL</p>
+      <ul>
+         <li>
+          <p><strong>Certificate in ITM</strong> (2017.1.4~2018.2.18)</p>
+          <p>Coursework: Fund of Web Development, Intelligent Device Apps, Intro to Open Source Software</p>
+         </li>
+      </ul>
+      <p><strong>Dongduk Women's University</strong>, Seoul, Korea</p>
+      <ul>
+        <li>
+          <p><strong>Bachelor Degree in Computer Science</strong> (2014.3.1~2019.2.28)</p>
+          <p>Coursework:</p>
+          <ul>
+            <li>Android App Development
+              <p>Project : <a href="https://play.google.com/store/apps/details?id=com.simpool.leedayeon.listdetail&hl=ko"
+                            title="Go to Google Play Store">SimPool</a>
+                 - It is Android Application that can play simple quiz with other people
+                 (This app supports only Korean language)
+              </p>
+              <p>Introduction Video for SimPool (Korean) : </p>
+              <iframe width="336" height="186"
+                      src="https://www.youtube.com/embed/J3XAA_A9Aiw" id="youtube" allowfullscreen>
+              </iframe>
+            </li>
+          </ul>       
+        </li>
+      </ul>
+    </section>
+    <h2>Experience:</h2>
+    <section id="experience">
+      <h3>Experience</h3>
+      <p><strong>Seoul Tourism Association</strong>, Seoul, Korea</p>
+      <p>Volunteer (September 2015 - August 2016)</p>
+      <ul>
+        <li>Tour guide service for foreigners in Shinchon, Seoul, Korea</li>
+      </ul>
+      <p><strong>Le Petit Cafe</strong>, Seoul, Korea</p>
+      <p>Part-timer Barista and Server (January 2014 - July 2014)</p>
+      <ul>
+        <li>Prepared coffee and served Italian food and wine</li>
+      </ul>
+    </section>
+    <h2>Skills:</h2>
+    <section id="skill">
+      <h3>Skills</h3>
+      <p><strong>Languages:</strong></p>
+      <ul>
+        <li>Korean - Native</li>
+        <li>Japanese - Intermediate</li>
+        <li>English - Intermediate</li>
+      </ul>
+      <p><strong>Programming Languages:</strong></p>
+      <ul>
+        <li>C</li>
+        <li>C++</li>
+        <li>Java</li>
+        <li>SQL, PL/SQL</li>
+      </ul>
+    </section>
+    <footer>
+      <p>Created by Dayeon Lee</p>
+      <p>Contact : dlee58@hawk.iit.edu</p>
+    </footer>
+  </body>
+</html>
