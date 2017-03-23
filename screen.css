@@ -19,6 +19,10 @@ nav > ul, footer {
   background-color: #4CAF50;
 }
 
+footer {
+  display:block;
+}
+
 li a {
   padding: 8px;
   display: block;
@@ -65,9 +69,6 @@ section#welcome_message {
   margin-left: 1.2rem;
 }
 
-.left {
-  float: left;
-}
 .right {
   float: right;
 }
